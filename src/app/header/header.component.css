@@ -1,0 +1,19 @@
+header {
+  margin-left: 220px;
+  height: 75px;
+  color: #fff;
+  padding: 20px;
+  border-bottom: 2px solid #ccc; /* Add border */
+}
+
+button {
+  background-color: white;
+  color: #006cad;
+  border-color: black;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-left: auto ;
+  width: auto;
+  text-transform: uppercase;
+  text-align: center;
+}

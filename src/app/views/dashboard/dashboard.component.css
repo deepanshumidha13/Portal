@@ -1,0 +1,11 @@
+.container{
+  margin-left: 300px;
+  margin-top: 40px;
+  width: fit-content;
+}
+
+.heading{
+  color: #0c72b1;
+  font-size: 24px;
+  font-weight: 500;
+}

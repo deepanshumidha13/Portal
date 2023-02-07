@@ -1,0 +1,131 @@
+@media (max-width: 600px) {
+  .d-flex {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+.d-flex {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: max-content;
+  background-color: #d4eeff;
+  border-right: 2px solid #ccc;
+}
+
+/* Crystal Logo Properties */
+
+.logo {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+.logo:hover {
+  opacity: 0.8; /* Add opacity on hover */
+}
+
+/* Navigation Panel Items */
+ul {
+  margin-left: -30px;
+}
+
+ul li {
+  color: #006cad;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+}
+
+ul li:hover {
+  background-color: white;
+  border: #f1f1f1;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: auto;
+}
+
+ul li:focus{
+  background-color: white;
+  border: #f1f1f1;
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: auto;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #006cad;
+  margin-left: inherit;
+  width: auto;
+}
+
+ul li a.active{
+  background-color: #fff;
+}
+
+svg {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+span{
+  vertical-align: middle;
+}
+
+button{
+  background-color: #006cad;
+  background-color: transparent;
+  color: #006cad;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  margin-left: -15px;
+}
+
+.btn-toggle::after {
+  width: 1.25em;
+  line-height: 0;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+  transition: transform .25s ease;
+  transform-origin: .5em 50%;
+}
+
+.btn-toggle[aria-expanded="true"]::after {
+  transform: rotate(90deg);
+}
+
+.btn-toggle-nav li{
+  color: #006cad;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px;
+  display: block;
+  margin-left: 20px;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+}
+
+.btn-toggle-nav a {
+  color: #006cad;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 80%;
+}
